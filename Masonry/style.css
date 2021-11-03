@@ -1,0 +1,245 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex-flow: column wrap;
+    height: 70px;
+    background-color: purple;
+    border-bottom: black;
+    border-left: black;
+    border-right: black;
+    border-style: solid;
+}
+
+.doubleitem {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+}
+
+.doubleitem a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 26px 16px;
+    font-style: bold;
+}
+
+.doubleitem a:hover {
+    background-color: black;
+    color: white;
+}
+
+.image {
+    background-image: url(https://imgr.search.brave.com/CGpf_8nvIc03bdXhR-biJK55ma9JW3EXv1mVqiQ0JDo/fit/1200/917/ce/1/aHR0cDovL2ltYWdl/czYuZmFucG9wLmNv/bS9pbWFnZS9waG90/b3MvMzY3MDAwMDAv/Q2F0cy1pbWFnZS1j/YXRzLTM2NzEyNzkx/LTEyMjItOTE3Lmpw/Zw);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonun {
+    margin: 0 auto;
+}
+
+.buttondeux {
+    margin: 0 auto;
+}
+
+.headercarte {
+    border-style: solid;
+    border-color: black;
+    background-color: purple;
+    height: 70px;
+}
+
+.headercarte h1 {
+    text-align: center;
+}
+
+.cartes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.carteun {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.cartedeux {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.cartetrois {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.titreformulaire {
+    border-style: solid;
+    border-color: black;
+    background-color: purple;
+    height: 70px;
+}
+
+.titreformulaire h1 {
+    text-align: center;
+}
+
+.formulaire {
+    background-color: tomato;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.titremasonry {
+    border-style: solid;
+    border-color: black;
+    background-color: purple;
+    height: 70px;
+}
+
+.titremasonry h1 {
+    text-align: center;
+}
+
+.container-masonry {
+    margin: 2em auto;
+    max-width: 970px;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.container-masonry h1 {
+    text-align: center;
+}
+.masonry {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -8px;
+    width: 100%;
+}
+
+.masonry-brick {
+    flex: auto;
+    border-radius: 5px;
+    height: 250px;
+    min-width: 150px;
+    margin: 0 0 8px 8px;
+    position: relative;
+}
+
+.masonry-brick:hover .masonry-img {
+    opacity: 0.3;
+}
+
+.masonry-brick:hover .middle {
+    opacity: 1;
+}
+
+.masonry-brick img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.masonry-img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .all {
+        margin: 0 auto;
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .image img {
+        height: 100%;
+    }
+
+    .formulaire {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* Chantier */
+
+.container {
+    margin: 0 10%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-spacearound {
+    display: flex;
+    justify-content: space-around;
+}
+
+.w-45 {
+    width: 45%
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+.txt-center {
+    text-align: center;
+}
